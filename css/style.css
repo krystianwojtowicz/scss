@@ -1,0 +1,367 @@
+* {
+  font-family: "Orelega One", cursive;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.container .row span {
+  white-space: nowrap;
+}
+
+.first-menu {
+  background-color: #f5f7fa;
+  padding-top: 10px;
+}
+
+.first-menu span {
+  margin: 0 20px;
+  color: #506a85;
+}
+
+.first-menu .firstMenu {
+  text-align: right;
+  color: #506a85;
+}
+
+.first-menu .firstMenu i {
+  margin: 0 10px;
+  color: #506a85;
+}
+
+.menu .navbar {
+  width: 100%;
+}
+
+.menu .navbar .navbar-brand {
+  margin-right: 50px;
+}
+
+.menu .navbar .navbar-nav {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.menu .navbar .navbar-nav li:last-child {
+  position: absolute;
+  right: 0;
+}
+
+.menu .navbar .navbar-nav a {
+  margin: 0 5px;
+  color: #506a85 !important;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.section {
+  background-image: url(../img/tlo.png);
+  width: 100%;
+  height: 880px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.section h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.section p {
+  font-size: 20px;
+  color: #7e91a4;
+}
+
+.section button {
+  width: 300px;
+  height: 60px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  background-color: #00bc9c;
+  font-size: 15px;
+}
+
+.section1 {
+  background-color: #fff;
+  min-height: 675px;
+  display: flex;
+  flex-direction: column;
+  min-height: 670px;
+  justify-content: center;
+  color: #506a85;
+}
+
+.section1 div {
+  text-align: center;
+}
+
+.section1 p {
+  font-size: 16px;
+}
+
+.section1 div:first-child {
+  margin-bottom: 40px;
+}
+
+.section1 div:first-child h1 {
+  font-size: 35px;
+  margin-top: 130px;
+}
+
+.section1 .about-reen p {
+  margin-bottom: 0;
+}
+
+.section1 .features {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section1 .features div p:first-child {
+  font-size: 22px;
+}
+
+.section2 {
+  min-height: 850px;
+  background-color: #f2f5f7;
+  display: flex;
+  justify-content: center;
+  color: #506a85;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+.section2 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.section2 p:last-child {
+  font-size: 14px;
+}
+
+.section2 .latest-work {
+  margin-top: 50px;
+}
+
+.section2 .latest-work h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.grandmotel {
+  display: flex;
+}
+
+.grandmotel div {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.grandmotel div p:nth-child(2) {
+  margin-top: 20px;
+}
+
+.carousel-row {
+  padding-top: 70px;
+  padding-bottom: 140px;
+  background-color: #f2f5f7;
+  justify-content: center;
+}
+
+.carousel-row .owl-carousel {
+  max-width: 1170px;
+}
+
+.carousel-row .owl-carousel div img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-row .owl-carousel div .owl-item {
+  width: 350px;
+}
+
+.carousel-row .owl-carousel div .owl-item img {
+  width: 270px;
+  height: 185px;
+}
+
+.carousel-row .owl-carousel .owl-dots {
+  text-align: center;
+}
+
+.carousel-row .owl-carousel .owl-dots button {
+  display: inline-block;
+  border: 8px solid #506a85 !important;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.carousel-row .owl-carousel .owl-dots button.active {
+  border-color: #00bc9c !important;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  min-height: 670px;
+  justify-content: center;
+  text-align: center;
+  color: #506a85;
+}
+
+.section3 h1 {
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+.section3 h2 {
+  font-size: 16px;
+}
+
+.section3 button {
+  width: 150px;
+  height: 50px;
+  background-color: #00bc9c;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer {
+  background-color: #2f4052;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 370px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.footer .container div:first-of-type p:last-of-type {
+  margin-bottom: 25px;
+}
+
+.footer .container .updates {
+  min-height: 286px;
+}
+
+.footer .container h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+.footer .container p,
+.footer .container a,
+.footer .container span {
+  color: #718090;
+}
+
+.footer .container span:first-child {
+  margin-top: 30px;
+}
+
+.footer .container span i {
+  margin-right: 12px;
+}
+
+.footer .container p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.footer .container p:first-of-type {
+  margin-top: 25px;
+}
+
+.footer .container .contact {
+  width: 100% !important;
+  display: inline-block;
+}
+
+.footer .container .contact span {
+  display: block;
+}
+
+.footer .container form {
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer .container form input {
+  padding-right: 100px;
+  position: absolute;
+  top: 0;
+  width: 262px;
+  height: 40px;
+  border-radius: 3px;
+  background: #4e5c6c;
+  border: 0;
+  text-align: center;
+}
+
+.footer .container form button {
+  position: absolute;
+  width: 88px;
+  height: 30px;
+  top: 0;
+  left: 169px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #00bc9c;
+  font-size: 12px;
+}
+
+.rights {
+  min-height: 80px;
+  color: #5e6c7a;
+  background-color: #283645;
+}
+
+.rights .container .col-md-6:first-of-type p {
+  line-height: 80px;
+  margin: 0;
+}
+
+.rights .container nav {
+  height: 80px;
+  padding-right: 0;
+}
+
+.rights .container nav ul {
+  background-color: #283645;
+}
+
+.container nav a {
+  color: #5e6c7a;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .menu .navbar .navbar-nav li:last-child {
+    position: relative;
+  }
+}
